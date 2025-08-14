@@ -42,24 +42,11 @@ To stop the program gracefully, open the terminal or command prompt where the ap
 Project Structure
 This project follows a standard Java repository structure to ensure clarity and maintainability.
 
-/UserActivityMonitoringSystem
-├── .gitignore          (Files to ignore for Git)
-├── LICENSE             (The MIT License)
-├── README.md           (This file)
-└── /src
-    └── /UserActivityMonitoringSystem
-        ├── Main.java
-        ├── FileAccessLogger.java
-        ├── ActivityTracker.java
-        ├── LoginLogoutLogger.java
-        ├── LoggerUtil.java
-        └── ... (other source files)
 
-Sample Log Output
 A successful run of the monitoring system will produce a log file (userActivityLog.txt) with entries similar to this:
 
-[2025-08-14 00:23:55] - Component: ApplicationUsage | Event: Running Processes Snapshot | Details: Process Details: chrome.exe
-[2025-08-14 00:34:04] - Component: ActivityTracker | Event: Window Change | Details: Window Title: Google Gemini - Google Chrome
-[2025-08-14 00:45:10] - Component: FileAccess | Event: File Created | Details: Path: C:\Users\YourUser\Documents | File: new_document.txt
-[2025-08-14 00:45:15] - Component: FileAccess | Event: File Modified | Details: Path: C:\Users\YourUser\Documents | File: new_document.txt
-[2025-08-14 01:10:20] - Component: LoginLogout | Event: User Logout | Details: Username: YourUser
+[2025-08-14 00:23:55] - Component: ApplicationUsage | Event: Running Processes Snapshot | Details: Process Details: chrome.exe\n
+[2025-08-14 00:34:04] - Component: ActivityTracker | Event: Window Change | Details: Window Title: Google Gemini - Google Chrome\n
+[2025-08-14 00:45:10] - Component: FileAccess | Event: File Created | Details: Path: C:\Users\YourUser\Documents | File: new_document.txt\n
+[2025-08-14 00:45:15] - Component: FileAccess | Event: File Modified | Details: Path: C:\Users\YourUser\Documents | File: new_document.txt\n
+[2025-08-14 01:10:20] - Component: LoginLogout | Event: User Logout | Details: Username: YourUser\n
