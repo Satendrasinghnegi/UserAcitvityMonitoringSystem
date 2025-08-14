@@ -24,6 +24,7 @@ The Java Native Access (JNA) library.
 Installation and Setup
 Clone the Repository: Clone this project from GitHub to your local machine.
 
+https://github.com/Satendrasinghnegi/UserAcitvityMonitoringSystem.git
 
 cd UserActivityMonitoringSystem
 
